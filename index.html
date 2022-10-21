@@ -7,14 +7,83 @@
     <title>Formação HTML 5</title>
 </head>
 <body>
-    <h1>Entendendo HTML 5 básico</h1>
-    <h3>Índice</h3>
-    <ol>
-        <li><a href="#estrutura"></a>Estrutura Básica do HTML</li>
-        <li><a href="#tags"></a>Falando sobre as Tags</li>
-        <li><a href="#atributos"></a>Atributos das Tags</li>
-        <li><a href="textos"></a></li>
-        <li>Listas Ordenadas e Não Ordenadas</li>
-    </ol>
+    <h1 id="topo">Entendendo HTML 5 básico por <i>Osman Bastos</i></h1>
+    <fieldset id="indice">
+        <legend>Sumário</legend> 
+        <ol>
+            <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+            <li><a href="#tags">Falando sobre as Tags</a></li>
+            <li><a href="#atributos">Atributos das Tags</a></li>
+            <li><a href="textos">Textos</a></li>
+            <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+            <li><a href="#fonte">Fontes</a></li>
+        </ol>
+    </fieldset>
+    <h3 id="estrutura"><u>Estrutura Básica do HTML</u></h3>
+    <p>
+        HTML(HyperText Markup Language) ou Linguagem de Marcação de Hiper Textos é uma forma de organizar as informações através de marcações para criação de websites, cronstruindo sua estrutura através de blocos.
+    </p>
+    
+    <small><a href="#indice">Voltar ao Índice</a></small>
+    <hr>
+    <h3 id="tags"><u>Falando sobre as Tags</u></h3>
+    <p>
+        Sendo assim, Ele funciona dividindo o texto através de "tags". TAGs são as marcas que servem também para dividir as informações em blocos, sendo essas as tags básicas:
+        <ol>
+            <li>&lt;html&gt;</li>Inicia uma página HTML. É necessário adicionar uma barra( / ) com a TAG &lt;/html&gt; para sinalizar o fim da página. <strong>Todas as outras TAGs ficam dentro desta.</strong>
+            <li>&lt;head&gt;</li>Adiciona um cabeçalho com informações a serem interpretadas pelo navegador <strong>O conteúdo desta TAG não aparece para o usuário.</strong>
+            <li>&lt;body&gt;</li>É aqui onde é colocado todo o conteúdo que aparecerá para o usuário/cliente. <strong>Neste TAG serão inseridas outras TAGs para organização da página</strong>
+        </ol>
+    </p>
+    <fieldset>
+        <legend>Exemplo:</legend>
+        <blockquote>
+            <p>
+                &lt;html&gt;<br>
+                ....&lt;head&gt;<br>
+                ..........Conteúdo do cabeçalho<br>
+                ....&lt;/head&gt;<br>
+                ....&lt;body&gt;<br>
+                ..........Conteúdo da página web<br>
+                ....&lt;/body&gt;<br>
+                &lt;/html&gt;
+            </p>
+        </fieldset>
+    </blockquote> 
+    <small><a href="#topo">Voltar ao Topo</a></small>
+    <hr>
+    <h3 id="atributos"><u>Atributos das Tags</u></h3>
+    <p>
+        Atributos são características das TAGs que podemos alterar.
+    </p>
+    <p>
+        <fieldset>
+            <legend>Exemplo:</legend>
+            <blockquote>&lt;input type="text" id="seuTexto"&gt;</blockquote>
+        </fieldset>
+        Neste exemplo a TAG de introdução de dados "input" recebe um atributo "type" que altera sua característica para "entrada de texto" e um outro atributo chamado "id" que adiciona uma identificação (seuTexto) à TAG, para que esta possa ser especificada em outro momento.
+    </p>
+    <small><a href="#topo">Voltar ao Topo</a></small>
+    <hr>
+    <h3 id="textos"><u>Textos</u></h3>
+    <p>
+        Os textos podem receber tratamentos especiais, inclusive alguns voltados a acessibilidade da página, como a TAG &lt;strong&gt;<strong>que dá enfase a tudo que estiver dentro dela</strong>&lt;/strong&gt;, inclusive para leitura da página para pessoas com algum tipo de deficiência visual.
+    </p>
+    <small><a href="#topo">Voltar ao Topo</a></small>
+    <hr>
+    <h3 id="listas"<u>Listas Ordenadas e Não Ordenadas</u></h3>
+    <p>
+        As listas podem ser ordenadas abertas com &lt;ol&gt; ou desordenadas com &lt;ul&gt;, e seus itens devem estar dentro da TAG &lt;li&gt;
+    </p>
+    <small><a href="#topo">Voltar ao Topo</a></small>
+    <hr>
+    <h3 id="fonte">Fontes utilizadas:</h3>
+    <p>
+        <a href="http://web.dio.me">DIO.me</a><br>
+        <a href="http://www.cursoemvideo.com.br">Curso em Vídeo</a>
+    </p>
+    <footer>
+        Site criado por <a href="https://www.linkedin.com/in/osman-bastos" target="_blank"><b>Osman Bastos</b></a>
+    </footer>
 </body>
 </html>
